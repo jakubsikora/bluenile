@@ -37,18 +37,11 @@
 		<div class="col-md-12 column logo-wrapper">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           </button>
-           <img src="/img/iata.png" />
-           <img src="/img/atol.png" />
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
+          <div class="navbar-img-wrapper">
+             <img src="/img/iata.png" />
+             <img src="/img/atol.png" />
+          </div>
+           <ul class="nav navbar-nav navbar-right">
             <li class='header-item'>
               <span class="glyphicon glyphicon-earphone"></span> 020 7723 5050
             </li>
@@ -64,12 +57,12 @@
 	</div>
   <div class="row clearfix">
     <div class="col-md-12 column banner-wrapper">
-      <img src="/img/banner.png" width=600 />
+      <img src="/img/banner.png" class='img' />
     </div>
   </div>
   <div class="row clearfix">
     <div class="col-md-12 column airlogos-wrapper">
-      <img src="/img/airlogos.png" width=600 />
+      <img src="/img/airlogos.png" class='img' />
     </div>
   </div>
   <div class="row clearfix">

@@ -6,10 +6,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.navbar-header {
+  float: right;
+  width: 100%;
+}
+
+.navbar-img-wrapper {
+  float: left;
+}
+
 .navbar-default {
   background: #FFF;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .logo-wrapper {
@@ -19,6 +29,7 @@ body {
   text-align: center;
   padding: 20px 0;
   max-width: 600px;
+  width: 100%;
 }
 
 .banner-wrapper {
@@ -27,6 +38,7 @@ body {
   text-align: center;
   padding: 20px 0;
   max-width: 600px;
+  width: 100%;
 }
 
 .airlogos-wrapper,
@@ -36,6 +48,12 @@ body {
   text-align: center;
   padding: 20px 0;
   max-width: 600px;
+  width: 100%;
+}
+
+.img {
+  max-width: 600px;
+  width: 100%;
 }
 
 .header-item {
@@ -46,4 +64,14 @@ body {
 
 .navbar-nav>li>a {
   font-size: 1.5em;
+}
+
+@media screen and (max-width:768px) {
+  .logo-wrapper {
+    margin-top: 120px;
+  }
+
+  .navbar-img-wrapper {
+    display: none;
+  }
 }
